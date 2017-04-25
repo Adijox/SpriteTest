@@ -5,12 +5,12 @@ var sound1;
 var time;
 function preload() {
     img = loadImage("test Sprite/spritesheet.png");
-    sound1 = loadSound("test Sprite/music.mp3");
+    //sound1 = loadSound("test Sprite/music.mp3");
 }
 setInterval(spriteClock, 150);
 function setup() {
     createCanvas(400, 400);
-    sound1.setVolume(0.3);
+    //sound1.setVolume(0.3);
     imageMode(CENTER);
     maxscroll = 108;
 }
@@ -18,7 +18,7 @@ function setup() {
 function draw() {
     print(time);
     if(time > 50) {
-    sound1.play();
+    //sound1.play();
     }
     background(51);
     if(keyIsDown(83)) {
