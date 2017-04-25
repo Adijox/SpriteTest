@@ -4,8 +4,8 @@ var maxscroll;
 var sound1;
 var time;
 function preload() {
-    img = loadImage("SpriteTest/spritesheet.png");
-    sound1 = loadSound("SpriteTest/music.mp3");
+    img = loadImage("test Sprite/spritesheet.png");
+    sound1 = loadSound("test Sprite/music.mp3");
 }
 setInterval(spriteClock, 150);
 function setup() {
